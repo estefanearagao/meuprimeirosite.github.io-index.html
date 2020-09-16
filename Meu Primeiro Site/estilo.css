@@ -1,0 +1,123 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    list-style: 0;
+}
+header {
+    background-color: rgba(248, 177, 177, 0.829);
+    color: black;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logo {
+    width: 100px;
+    position: absolute;
+    margin-left: 5%;
+}
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li {
+    float: left;
+    padding: 10px 10px 10px 10px;
+}
+li:hover {
+    background-color: white;
+}
+#imagem_fundo {
+    background: url(img/fundo.jpg);
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+#titulo {
+    color: black;
+    padding-top: 15%;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#subtitulo {
+    color: black;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#acao {
+    color: black;
+    border: 2px black solid;
+    padding: 10px 20px 10px 20px;
+    font-size: 18px;
+    background: transparent;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h3 {
+    color: black;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icone {
+    width: 150px;
+    margin-bottom: 15px;
+    border: solid #f7f7f7 2px;
+    transition: all ease 0.3s;
+}
+.icone:hover {
+    border-color: violet;
+}
+#projeto {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+#selecao {
+    padding: 20px;
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    background-color: #f7f7f7;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h4 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.justificado {
+    text-align: justify;
+}
+.centralizado {
+    text-align: center;
+}
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgba(248, 177, 177, 0.829);
+    font-size: 15px;
+}
+@media all and (max-width: 768px) {
+    #menu {
+        visibility: hidden;
+    }
+    .coluna {
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+}
